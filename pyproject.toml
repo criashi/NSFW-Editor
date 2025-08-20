@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "video-tagger"
+name = "NSFW-Editor"
 version = "0.1.0"
 description = "Custom video editor with tagging and timeline support"
 authors = ["Chris"]
 readme = "README.md"
+packages = [{ include = "app" }]
 
 [tool.poetry.dependencies]
 python = ">=3.12,<3.14"
